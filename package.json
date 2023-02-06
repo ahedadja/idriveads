@@ -1,0 +1,24 @@
+{
+  "name": "idriveads",
+  "private": true,
+  "scripts": {
+    "build": "yarn --cwd server build",
+    "start": "yarn --cwd server start"
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "^8.1.0",
+    "eslint-formatter-pretty": "^4.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.0",
+    "eslint-config-a1motion": "^3.4.2",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  }
+}
